@@ -31,4 +31,5 @@ async def on_ready():
 
 bot.add_application_command(main_commands.main_commands)
 
-bot.run("")
+if __name__ == '__main__':
+    bot.run("")
